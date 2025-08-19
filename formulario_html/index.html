@@ -15,21 +15,56 @@
       <label for="nome">Ultimo nome</label>
       <input type="text" id="nome" placeholder="Digite seu nome" required />
       <br />
-      <input type="submit" value="Login" /> <hr>
+       <hr>
 
 <!-- <-- tipo radio --> <br>
-<labe>Qual seu nivel como programado atualmente?</label> <br>
+<labe>Qual seu nivel como programador atualmente?</label> <br>
 <labe>
-    <input type="radio" name="nivel" value="iniciante">
+    <input type="radio" name="nivel" value="iniciante" checked>
     Iniciante <br>
      <input type="radio" name="nivel" value="junior">
     Junior
 <br>
      <input type="radio" name="nivel" value="Senior">
     Senior
+    <br> <br>
     
+<!-- tipo select para selecionar itens -->
+
+<label for="escolaridade" >
+    <strong>Sua escolaridade</strong>
 </label>
-</label>
+<select id="escolaridade" required >
+    <option selected disabled value="">Selecione</option>
+    <option>Educacao basica</option>
+    <option>Ensinoe medio</option> 
+    <option>Ensino Superior</option>
+    </select> <br> <br>
+    
+    <label>
+        <strong>Selecione as tecnologias que voce conhece:</strong>
+    </label> <br> 
+
+    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+    <label for="tecnologia1">HTML</label>
+
+<br>
+
+<input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+    <label for="tecnologia2">CSS</label>
+
+<br>
+
+<input type="checkbox" id="tecnologia3" name="tecnologia3" value="Javascript">
+    <label for="tecnologia3">Javascript</label>
+    
+<br>
+
+<input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+    <label for="tecnologia4">PHP</label>
+
+</select> <br> <br>
+<input type="submit" value="cadastrar" />
     </form>
   </body>
 </html>
