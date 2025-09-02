@@ -234,121 +234,45 @@ footer a {
 /* RESPONSIVIDADE */
 
 @media (max-width: 850px) {
-  #container-signup {
-    width: 100%;
-    padding: 0 10px;
-  }
-
-  .column {
-    width: 100%;
-  }
-
   .left {
-    height: 300px;
+    display: none;
   }
-
+  #container {
+    width: 70%;
+  }
   .right {
-    padding-left: 0;
-  }
-
-  .login-panel {
-    padding: 10px 0;
-  }
-
-  .logo-img {
-    width: 150px;
-  }
-
-  input[type="password"],
-  input[type="text"] {
-    width: 100%;
-  }
-
-  input[type="submit"] {
-    width: 100%;
-  }
-
-  .infobox {
-    flex-direction: column;
-  }
-
-  .app-buttons {
-    flex-direction: column;
-  }
-
-  .app-buttons img {
-    height: 30px;
-  }
-
-  footer {
-    height: auto;
-  }
-
-  footer a {
-    display: block;
-    margin: 5px 0;
-  }
-
-  .text-small {
     padding-left: 0;
   }
 }
+
 @media (max-width: 560px) {
+  #container {
+    width: 90%;
+  }
+
   #container-signup {
-    padding: 0 5px;
-  }
-
-  .column {
-    width: 100%;
-  }
-
-  .left {
-    height: 250px;
-  }
-
-  .right {
-    padding-left: 0;
-  }
-
-  .login-panel {
-    padding: 5px 0;
-  }
-
-  .logo-img {
-    width: 120px;
+    width: 90%;
   }
 
   input[type="password"],
-  input[type="text"] {
-    width: 100%;
+  input[type="text"],
+  input[type="submit"],
+  .cta-button {
+    width: 85%;
   }
-
-  input[type="submit"] {
-    width: 100%;
+  .message {
+    margin: 10px 25px;
   }
+}
 
+@media (max-width: 365px) {
   .infobox {
-    flex-direction: column;
+    margin: 10px 0 160px;
   }
+}
 
-  .app-buttons {
-    flex-direction: column;
-  }
-
-  .app-buttons img {
-    height: 30px;
-  }
-
-  footer {
-    height: auto;
-  }
-
-  footer a {
-    display: block;
-    margin: 5px 0;
-  }
-
-  .text-small {
-    padding-left: 0;
+@media (max-width: 375px) {
+  .infobox {
+    margin: 10px 0 260px;
   }
 }
